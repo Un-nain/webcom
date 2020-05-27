@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <title>Site</title>
+</head>
+
+<!-- Topics -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light mb-3">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="accueil.html">Accueil</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="nourriture.html">Nourriture</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="sport.html">Sport</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="sommeil.html">Sommeil</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="blog.html">Blog</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
+          À propos
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="equipe.html">L'équipe</a>
+          <a class="dropdown-item" href="contact.html">Contactez-nous</a>
+        </div>
+      </li>
+    </ul>
+  </nav>
+<body>
+    <!-- Contact -->
+    <div class="container col-sm-8" id="contact">
+        <h2>Contactez-nous</h2>
+        <hr><br>
+        <form>
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <div class="input-group-text"><span class="material-icons">
+                      perm_identity
+                      </span></div>
+                </div>
+                <input class="form-control" type="text" placeholder="Nom d'utilisateur">
+            </div>
+
+            <br />
+
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <div class="input-group-text"><span class="material-icons">
+                      contact_mail
+                      </span></div>
+                </div>
+                <input class="form-control" type="text" placeholder="Email">
+            </div>
+
+            <br />
+
+            <label for="message">Message</label>
+            <br />
+            <textarea class="form-control" id="message" rows="5"></textarea>
+            <br />
+            <button class="btn btn-primary" type="submit">Envoyer</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
+
