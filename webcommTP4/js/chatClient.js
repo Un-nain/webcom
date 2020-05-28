@@ -8,7 +8,7 @@ document.getElementById("message_input").addEventListener("click", messageWhile)
 
 
 function Login(){
-    login= prompt("Please entre ton pseudo 😍", "NewNow");
+    login= prompt("pseudo");
     console.log(login);
 }
 
